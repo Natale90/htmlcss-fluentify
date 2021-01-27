@@ -1,0 +1,94 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+
+header{
+  height: 100vh;
+  /* debug */
+
+}
+
+nav{
+  height: 80px;
+  /* debug */
+  border:1px solid black;
+  text-align: center; */
+  line-height: 80px;
+  margin: 0 100px;
+}
+
+
+
+.jumbotron{
+  height: 80%;
+  /* debug */
+  background-color: lightblue;
+  border: 1px solid black;
+}
+
+.jumbotext{
+  /* debug */
+  width: 50%;
+  height: 300px;
+  border: 1px solid black;
+  text-align: center;
+  line-height: 300px;
+  margin: 0 100px;
+}
+
+.header_bottom_side{
+  height: 20%;
+  /* debug */
+  background-color: lightgrey;
+  border: 1px solid black;
+  text-align: center;
+  padding: 0 100px;
+}
+
+/* MAIN'S ISTRUCTIONS */
+
+main{
+  /* debug */
+  height: 1000px;
+  background-color: pink;
+}
+
+
+.row{
+  /* debug */
+  height: 50%;
+  border: 1px solid black;
+  text-align: center;
+  padding:0 100px;
+}
+.row:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row.uno .column{
+  float: left;
+  /* debug */
+  width: calc(100% / 3);
+  height: 100%;
+  border: 3px solid yellow;
+}
+
+.row.due .column{
+  float: left;
+  /* debug */
+  width: calc(100% / 2);
+  height: 100%;
+  border: 3px solid yellow;
+}
+
+footer{
+  height: 20vh;
+  background-color: lightgrey;
+  text-align: center;
+  padding: 0 100px;
+}
