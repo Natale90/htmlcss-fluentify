@@ -11,88 +11,89 @@ body{
 }
 
 header{
-  height: 100vh;
-  /* debug */;
-
+  height: 550px;
+  border: 1px solid green;
+  background-image: url(../img/background-header.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 146%;
+  background-color: #3b5998;
 }
 
+
+/* ISTRUZIONI NAV */
 nav{
-  height: 80px;
+  width: 80%;
+  margin: auto;
+  height: 60px;
   /* debug */;
-  line-height: 80px;
+  line-height: 60px;
   border:1px solid black;
-  padding: 0 100px;
-  background-color: #3b5998;
+  /* padding: 0 100px; */
+  /* background-color: #3b5998; */
 }
 
-
-
-.jumbotron{
-  height: calc(80% - 80px);
-  position:relative;
-  /* debug */;
-  background-color: #3b5998;
-  border: 1px solid black;
-}
-
-.jumbotron:after{
+nav:after{
   content:"";
   display: table;
   clear: both;
 }
 
-.jumbotron_img{
-  width: 50%;
-  height: calc(100% - 100px);
-  margin: 100px 0;
-  border: 1px solid red;
-  float: right;
-  position: relative;
-  background-image: url(../img/background-header.png);
-  background-size: contain;
-  background-position:bottom;
-  background-repeat: no-repeat;
-}
-
-.jumbotron img{
-  width: 900px;
-  margin-right: -75px;
-  position: absolute;
-  bottom: 0px;
-  right: 0px;
-}
-
-.jumbotext{
-  /* debug */;
-  width: 50%;
-  /* height: 300px; */
-  color:white;
-  border: 1px solid black;
-  margin: 100px 0px;
-  padding: 20px 0 0 100px;
+.logo, .navbar_left, .navbar_right{
   float: left;
 }
 
-#brand_mission{
-  font-size: calc(20px + 2vw);
-  margin-bottom: 40px;
+.navbar_left ul li{
+  margin:0 10px;
 }
 
-.jumbobutton{
-  text-decoration: none;
-  color: white;
-  background-color: #20dd4e;
-  padding: 20px 30px;
+.navbar_right ul li{
+  margin:0 10px;
+}
+
+
+.nav_button{
+  padding: 5px 30px;
   border-radius: 10px;
+  border: 1px solid white;
 }
 
-.header_bottom_side{
-  height: 20%;
-  /* debug */;
-  background-color: lightgrey;
-  border: 1px solid black;
-  text-align: center;
-  padding: 0 100px;
+#last_button{
+  background-color: green;
+  border-color: green;
+}
+/* debug */
+.navbar_left{
+  border: 1px solid red;
+}
+
+.navbar_right{
+  margin-left: 30px;
+  padding-right: 0px;
+  border:1px solid green;
+
+}
+
+li{
+  display:inline-block;
+}
+
+ ul{
+  float: left;
+}
+
+ul li a{
+  color:white;
+  text-decoration: none;
+}
+
+.jumbotext{
+  width: 80%;
+  margin-left: 10%;
+  color:white;
+  border: 1px solid red;
+  position:absolute;
+  bottom:400px;
 }
 
 /* MAIN'S ISTRUCTIONS */
