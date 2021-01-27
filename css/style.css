@@ -11,7 +11,7 @@ body{
 }
 
 header{
-  height: 550px;
+  height: 70vh;
   border: 1px solid green;
   background-image: url(../img/background-header.png);
   background-size: contain;
@@ -29,8 +29,6 @@ nav{
   /* debug */;
   line-height: 60px;
   border:1px solid black;
-  /* padding: 0 100px; */
-  /* background-color: #3b5998; */
 }
 
 nav:after{
@@ -96,6 +94,16 @@ ul li a{
   bottom:400px;
 }
 
+/* INTRA_SECTION */
+.intra_section{
+  background-color: lightgrey;
+  padding: 20px;
+  text-align: center;
+}
+
+.intra_section h4{
+  font-size: 20px;
+}
 /* MAIN'S ISTRUCTIONS */
 
 main{
