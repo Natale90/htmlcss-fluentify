@@ -109,16 +109,19 @@ ul li a{
 main{
   /* debug */;
   height: 1000px;
-  background-color: pink;
+  /* background-color: pink; */
 }
 
-
+/* ROW ISTRUCTION */
 .row{
+  width: 80%;
+  margin: auto;
+  padding: 10px 0;
   /* debug */;
-  height: 50%;
+  /* height: 50%; */
   border: 1px solid black;
   text-align: center;
-  padding:0 100px;
+
 }
 .row:after{
   content: "";
@@ -148,11 +151,28 @@ main{
   height: 200px;
   border: 1px solid red;
   margin: auto;
+  margin-bottom: 40px;
 }
 
-footer{
-  height: 20vh;
-  background-color: lightgrey;
-  text-align: center;
-  padding: 0 100px;
+.column_img img{
+  width: 100%;
+  height: auto;
+  /* margin:0 auto; */
+}
+
+.column_title h3{
+  color:green;
+  font-size: 25px;
+}
+
+.horizontal_row{
+  width: 150px;
+  border:1px solid grey;
+  margin:20px auto;
+  background-color: grey;
+
+}
+
+.row.due{
+  margin-top: 10px;
 }
