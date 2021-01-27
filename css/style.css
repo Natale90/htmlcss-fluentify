@@ -4,6 +4,9 @@
   box-sizing: border-box;
 }
 
+body{
+  font-family: 'Poppins', sans-serif;
+}
 
 header{
   height: 100vh;
@@ -17,26 +20,47 @@ nav{
   border:1px solid black;
   text-align: center; */
   line-height: 80px;
-  margin: 0 100px;
+  padding: 0 100px;
+  background-color: #3b5998;
 }
 
 
 
 .jumbotron{
-  height: 80%;
+  height: calc(80% - 80px);
+  position:relative;
   /* debug */;
-  background-color: lightblue;
+  background-color: #3b5998;
   border: 1px solid black;
+}
+
+.jumbotron img{
+  width: 66%;
+  position: absolute;
+  bottom: 0px;
+  right: -65px;
 }
 
 .jumbotext{
   /* debug */;
   width: 50%;
   height: 300px;
+  color:white;
   border: 1px solid black;
-  text-align: center;
-  line-height: 300px;
-  margin: 0 100px;
+  margin: 100px 100px;
+}
+
+#brand_mission{
+  font-size: 60px;
+  margin-bottom: 40px;
+}
+
+.jumbobutton{
+  text-decoration: none;
+  color: white;
+  background-color: #20dd4e;
+  padding: 20px 30px;
+  border-radius: 10px;
 }
 
 .header_bottom_side{
