@@ -7,13 +7,13 @@
 
 header{
   height: 100vh;
-  /* debug */
+  /* debug */;
 
 }
 
 nav{
   height: 80px;
-  /* debug */
+  /* debug */;
   border:1px solid black;
   text-align: center; */
   line-height: 80px;
@@ -24,13 +24,13 @@ nav{
 
 .jumbotron{
   height: 80%;
-  /* debug */
+  /* debug */;
   background-color: lightblue;
   border: 1px solid black;
 }
 
 .jumbotext{
-  /* debug */
+  /* debug */;
   width: 50%;
   height: 300px;
   border: 1px solid black;
@@ -41,7 +41,7 @@ nav{
 
 .header_bottom_side{
   height: 20%;
-  /* debug */
+  /* debug */;
   background-color: lightgrey;
   border: 1px solid black;
   text-align: center;
@@ -51,14 +51,14 @@ nav{
 /* MAIN'S ISTRUCTIONS */
 
 main{
-  /* debug */
+  /* debug */;
   height: 1000px;
   background-color: pink;
 }
 
 
 .row{
-  /* debug */
+  /* debug */;
   height: 50%;
   border: 1px solid black;
   text-align: center;
@@ -72,7 +72,7 @@ main{
 
 .row.uno .column{
   float: left;
-  /* debug */
+  /* debug */;
   width: calc(100% / 3);
   height: 100%;
   border: 3px solid yellow;
@@ -80,10 +80,18 @@ main{
 
 .row.due .column{
   float: left;
-  /* debug */
+  /* debug */;
   width: calc(100% / 2);
   height: 100%;
   border: 3px solid yellow;
+}
+
+.column_img{
+  width: 50%;
+  /* debug */
+  height: 200px;
+  border: 1px solid red;
+  margin: auto;
 }
 
 footer{
